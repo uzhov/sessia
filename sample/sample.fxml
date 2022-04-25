@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="662.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="157.0" fitWidth="190.0" layoutX="471.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resurs/Logo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="80.0" layoutY="73.0" text="Телеком Нева Связь">
+         <font>
+            <Font name="Script MT Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login" layoutX="298.0" layoutY="178.0" prefHeight="25.0" prefWidth="173.0" />
+      <Label layoutX="226.0" layoutY="180.0" text="Номер">
+         <font>
+            <Font name="Script MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="229.0" text="Пароль">
+         <font>
+            <Font name="Script MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="298.0" layoutY="226.0" prefHeight="25.0" prefWidth="173.0" />
+      <Label layoutX="226.0" layoutY="276.0" text="Код">
+         <font>
+            <Font name="Script MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="codeAutho" layoutX="298.0" layoutY="274.0" prefHeight="25.0" prefWidth="94.0" />
+      <Button fx:id="exit" layoutX="281.0" layoutY="334.0" mnemonicParsing="false" text="Отмена">
+         <font>
+            <Font name="Script MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="enter" layoutX="385.0" layoutY="334.0" mnemonicParsing="false" text="Войти">
+         <font>
+            <Font name="Script MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="getError" layoutX="344.0" layoutY="393.0">
+         <font>
+            <Font name="Script MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="update" layoutX="402.0" layoutY="274.0" mnemonicParsing="false" text="Обновить" />
+   </children>
+</AnchorPane>
